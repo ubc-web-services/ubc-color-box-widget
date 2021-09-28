@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * @file
+ * Contains ubc_color_box_widget.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function ubc_color_box_widget_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.ubc_color_box_widget':
+      $output = '';
+      $output .= '<h3>' . t('About UBC Color Box Widget') . '</h3>';
+      $output .= '<p>' . t('This module adds a colored box widget to the CKEditor wysiwyg. These buttons allow the insertion of prebuilt html markup, styled to be in keeping with the UBC CLF (common look and feel) design specifications.') . '</p>';
+      return $output;
+    default:
+  }
+}

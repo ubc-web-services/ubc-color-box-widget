@@ -1,0 +1,10 @@
+{
+  "name": "ubc-web-services/ubc-color-box-widget",
+  "description": "A Drupal 8 module to add a color box widget to CKeditor",
+  "type": "drupal-module",
+  "authors": [{
+    "name": "O'Toole, James",
+    "email": "james.otoole@ubc.ca"
+  }],
+  "require": {}
+}

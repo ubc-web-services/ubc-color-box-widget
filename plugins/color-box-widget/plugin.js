@@ -71,14 +71,6 @@
             this.setData('background', 'bg-unit-tertiary');
           if (this.element.hasClass('bg-unit-accent'))
             this.setData('background', 'bg-unit-accent');
-          if (this.element.hasClass('bg-unit-stream-1'))
-            this.setData('background', 'bg-unit-stream-1');
-          if (this.element.hasClass('bg-unit-stream-2'))
-            this.setData('background', 'bg-unit-stream-2');
-          if (this.element.hasClass('bg-unit-stream-3'))
-            this.setData('background', 'bg-unit-stream-3');
-          if (this.element.hasClass('bg-unit-stream-4'))
-            this.setData('background', 'bg-unit-stream-4');
 
           if (this.element.hasClass('bg-ubc-blue'))
             this.setData('background', 'bg-ubc-blue');
@@ -114,12 +106,8 @@
           this.element.removeClass('bg-grey-100');
           this.element.removeClass('bg-unit-primary');
           this.element.removeClass('bg-unit-secondary');
-          this.element.removeClass('bg-unit-tertairy');
+          this.element.removeClass('bg-unit-tertiary');
           this.element.removeClass('bg-unit-accent');
-          this.element.removeClass('bg-unit-stream-1');
-          this.element.removeClass('bg-unit-stream-2');
-          this.element.removeClass('bg-unit-stream-3');
-          this.element.removeClass('bg-unit-stream-4');
           this.element.removeClass('bg-ubc-blue');
           this.element.removeClass('bg-ubc-blue-sea');
           this.element.removeClass('bg-ubc-blue-cobalt');

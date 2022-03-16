@@ -84,7 +84,8 @@
             this.setData('background', 'bg-ubc-blue-cornflower');
           if (this.element.hasClass('bg-ubc-blue-polar'))
             this.setData('background', 'bg-ubc-blue-polar');
-
+          if (this.element.hasClass('bg-ubc-blue-frost'))
+            this.setData('background', 'bg-ubc-blue-frost');
         },
 
         data: function () {
@@ -114,6 +115,7 @@
           this.element.removeClass('bg-ubc-blue-neptune');
           this.element.removeClass('bg-ubc-blue-cornflower');
           this.element.removeClass('bg-ubc-blue-polar');
+          this.element.removeClass('bg-ubc-blue-frost');
 
           if (this.data.align)
             this.element.addClass(this.data.align);
@@ -126,8 +128,8 @@
 
           if (this.data.background)
             this.element.addClass(this.data.background);
-
         }
+
       });
     }
   });

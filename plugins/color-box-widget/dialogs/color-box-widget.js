@@ -1,7 +1,7 @@
 CKEDITOR.dialog.add('color-box-widget', function (editor) {
   return {
     title: 'Color Box Widget',
-    minWidth: 200,
+    minWidth: 300,
     minHeight: 100,
     contents: [{
       id: 'info',
@@ -44,7 +44,8 @@ CKEDITOR.dialog.add('color-box-widget', function (editor) {
             ['UBC Blue: Cobalt', 'bg-ubc-blue-cobalt'],
             ['UBC Blue: Neptune', 'bg-ubc-blue-neptune'],
             ['UBC Blue: Cornflower', 'bg-ubc-blue-cornflower'],
-            ['UBC Blue: Polar', 'bg-ubc-blue-polar']
+            ['UBC Blue: Polar', 'bg-ubc-blue-polar'],
+            ['UBC Blue: Frost', 'bg-ubc-blue-frost']
           ],
           setup: function (widget) {
             this.setValue(widget.data.background);

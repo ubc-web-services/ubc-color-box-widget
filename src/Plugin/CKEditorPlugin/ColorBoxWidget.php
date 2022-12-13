@@ -20,7 +20,7 @@ class ColorBoxWidget extends CKEditorPluginBase {
    * Implements \Drupal\ckeditor\Plugin\CKEditorPluginInterface::getFile().
    */
   public function getFile() {
-    return drupal_get_path('module', 'ubc_color_box_widget') . '/plugins/color-box-widget/plugin.js';
+    return \Drupal::service('extension.list.module')->getPath('ubc_color_box_widget') . '/plugins/color-box-widget/plugin.js';
   }
 
   /**
@@ -44,7 +44,7 @@ class ColorBoxWidget extends CKEditorPluginBase {
     return [
       'color-box-widget' => [
         'label' => $this->t('Color Box Widget'),
-        'image' => drupal_get_path('module', 'ubc_color_box_widget') . '/plugins/color-box-widget/icons/color-box-widget.png',
+        'image' => \Drupal::service('extension.list.module')->getPath('ubc_color_box_widget') . '/plugins/color-box-widget/icons/color-box-widget.png',
       ],
     ];
   }

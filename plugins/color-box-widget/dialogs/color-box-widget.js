@@ -39,13 +39,13 @@ CKEDITOR.dialog.add('color-box-widget', function (editor) {
             ['Unit Secondary Color', 'bg-unit-secondary'],
             ['Unit Tertiary Color', 'bg-unit-tertiary'],
             ['Unit Accent Color', 'bg-unit-accent'],
-            ['UBC Blue', 'bg-ubc-blue'],
-            ['UBC Blue: Sea', 'bg-ubc-blue-sea'],
-            ['UBC Blue: Cobalt', 'bg-ubc-blue-cobalt'],
-            ['UBC Blue: Neptune', 'bg-ubc-blue-neptune'],
-            ['UBC Blue: Cornflower', 'bg-ubc-blue-cornflower'],
-            ['UBC Blue: Polar', 'bg-ubc-blue-polar'],
-            ['UBC Blue: Frost', 'bg-ubc-blue-frost']
+            ['UBC Blue', 'bg-ubc-blue bg-dark'],
+            ['UBC Blue: Sea', 'bg-ubc-blue-sea bg-dark'],
+            ['UBC Blue: Cobalt', 'bg-ubc-blue-cobalt bg-dark'],
+            ['UBC Blue: Neptune', 'bg-ubc-blue-neptune bg-light'],
+            ['UBC Blue: Cornflower', 'bg-ubc-blue-cornflower bg-light'],
+            ['UBC Blue: Polar', 'bg-ubc-blue-polar bg-light'],
+            ['UBC Blue: Frost', 'bg-ubc-blue-frost bg-light']
           ],
           setup: function (widget) {
             this.setValue(widget.data.background);

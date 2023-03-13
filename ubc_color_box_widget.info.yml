@@ -4,4 +4,4 @@ description: This plugin adds a widget with dialogue to the wysiwyg editor (CKED
 package: UBC Web Services
 dependencies:
   - ckeditor
-core_version_requirement: ^9.3 || 10
+core_version_requirement: ^9.3 || ^10
